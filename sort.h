@@ -1,5 +1,5 @@
-#ifndef _SHORT_H
-#define _SHORT_H
+#ifndef SHORT_H_
+#define SHORT_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -19,9 +19,8 @@ typedef struct listint_s
 
 
 void bubble_sort(int *array, size_t size);
-
-void print_array(const int *array, size_t size;
 void print_list(const listint_t *list);
+void print_array(const int *array, size_t size);
 
 
 
